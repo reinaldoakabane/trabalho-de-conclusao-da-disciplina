@@ -1,0 +1,24 @@
+{
+  "name": "trabalho-de-conclusao-da-disciplina",
+  "version": "1.0.0",
+  "description": "Trabalho de Conclusão da Disciplina - Exercício prático de Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reinaldoakabane/trabalho-de-conclusao-da-disciplina.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/reinaldoakabane/trabalho-de-conclusao-da-disciplina/issues"
+  },
+  "homepage": "https://github.com/reinaldoakabane/trabalho-de-conclusao-da-disciplina#readme",
+  "dependencies": {
+    "mocha": "^11.7.5"
+  }
+}
