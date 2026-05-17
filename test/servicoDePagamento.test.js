@@ -63,7 +63,7 @@ describe('Testes da classe de Servico De Pagamento', () => {
         assert.equal(ultimoPagamento.categoria, 'cara');
     })
 
-    it('Deve retornar undefined ao consultar sem pagamentos realizados', () => {
+    it('Retornar undefined ao consultar quando não há pagamentos realizados', () => {
         const servicoDePagamento = new ServicoDePagamento();
         const ultimoPagamento = servicoDePagamento.consultarUltimoPagamento();
         assert.equal(ultimoPagamento, undefined);
